@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.video-container:hover {
+  /* width: 330px;
+  height: 280px; */
+  cursor: pointer;
+}
+.card-content{
+  width: 331px;
+}
+.card-content:hover  {
+  cursor: pointer;
+}
+
+.avatar{
+  width: 36px;
+  height: 36px;
+}
+
+
+
+@media (max-width: 992px) {
+  .sidetab-container{
+    display: none;
+  }
+  .sidetabIcon-container{
+    display: block;
+  }
+
+}
+@media (min-width: 992px) {
+  .sidetab-container{
+    display: block;
+  }
+  .sidetabIcon-container{
+    display: none;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .sidetab-container{
+    display: block;
+  }
+} */
